@@ -1,0 +1,13 @@
+# Secrets - never commit these
+.env
+*.pem
+oci_private_key.pem
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
